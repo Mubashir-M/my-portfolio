@@ -1,4 +1,4 @@
-export default {
+const post =  {
   name: 'post',
   title: 'Post',
   type: 'document',
@@ -32,12 +32,6 @@ export default {
       },
     },
     {
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'category'}}],
-    },
-    {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
@@ -63,3 +57,5 @@ export default {
     },
   },
 }
+
+export default post
