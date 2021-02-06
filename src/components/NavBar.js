@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom'
             to = '/' 
             exact 
             activeClassName = 'text-black' 
-            className = 'inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-gray-400 text-4xl font-TT tracking-widest'>
+            className = 'inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-gray-400 text-4xl font-TT tracking-widest'>
             Home
           </NavLink>
           <NavLink 

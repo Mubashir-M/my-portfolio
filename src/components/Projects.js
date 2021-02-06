@@ -20,7 +20,7 @@ export default function Project () {
   },[]);
 
   return (
-    <main className = 'bg-green-100-min-h-screen p-12'>
+    <main className = 'bg-gray-100 min-h-screen p-12'>
       <section className = 'container mx-auto'>
         <h1 className = 'text-5xl flex justify-center font-TT'> My Projects</h1>
         <h2 className = 'text-lg text-gray-600 flex justify-center mb-12'>Welcome to my projects page!</h2>
@@ -44,7 +44,7 @@ export default function Project () {
                     {new Date(project.date).toLocaleDateString()}
                   </span>
                   <span>
-                    <stong className = 'font-bold'>Company</stong>:{' '}
+                    <stong className = 'font-bold'>Place</stong>:{' '}
                     {project.place}
                   </span>
                   <span>
